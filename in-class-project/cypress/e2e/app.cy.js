@@ -8,7 +8,7 @@ class RegisterForm {
     submitBtn: () => cy.get('#btnSubmit')
   }
 
-  typeTitle(text) {
+  typeTitle(text) { 
     if(!text) return;
     this.elements.titleInput().type(text);
   }
