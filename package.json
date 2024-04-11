@@ -1,0 +1,17 @@
+{
+  "name": "nova-pasta",
+  "version": "1.0.0",
+  "description": "",
+  "type":"module",
+  "engines": {
+    "node": "21.6.2"
+  },
+  "main": "index.js",
+  "scripts": {
+    "cypress:web": "npx cypress open",
+    "cypress:headless": "npx cypress run --browser electron"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
